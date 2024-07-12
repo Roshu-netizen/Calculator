@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+}
+.calculator-bg {
+  background-color: #808080;
+  height: 100vh;
+  width: 100%;
+}
+.calculator-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 55px;
+}
+.nav-icon {
+  display: flex;
+  align-items: center;
+  color: rgb(177, 177, 177);
+  gap: 10px;
+}
+.nav-icon-text {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(177, 177, 177);
+  font-weight: 700;
+  font-size: 20px;
+}
+.listing {
+  color: rgb(177, 177, 177);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+/* .side-1{
+    font-size: 35px !important;
+} */
+.fss-1 {
+  color: rgb(177, 177, 177);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 55px;
+  animation: typing 2s steps(32, end) infinite;
+}
+
+.text-animation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 85px !important;
+    background: linear-gradient(90deg, #535353, #282828, #111111, #9013fe, #ff6b6b);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 5s ease-in-out infinite;
+    /* text-align: center; */
+    /* white-space: nowrap; */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#calculator{
+    width: 100%;
+}
+
+.bg-1{
+    background: #535353;
+    padding: 10px;    
+    width: 350px;
+
+}
+.display{
+    border: 1px solid rgb(75, 75, 75);
+}
+.calculator{
+    display: flex;
+    gap: 25px;
+}
+
+.numbering{
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+input{
+    padding: 25px;
+    text-align: center;
+    background: transparent;
+    box-shadow: linear-gradient( #535353, #282828, #111111, #9f9f9f, #ff6b6b);
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+
+}
+.plus{
+    display: flex;
+    gap: 20px;
+}
+.multiply{
+    display: flex;
+    gap: 20px;
+    background: transparent !important;
+}
+.divide{
+    display: flex;
+    gap: 20px;
+    background: transparent !important;
+}
+.minus{
+    display: flex;
+    gap: 20px;
+    background: transparent !important;
+}
+
